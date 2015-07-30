@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "ListenOnRepeat Lazy",
+  "description": "This extension repeats a youtube video",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "headphones.png"
+    },
+    "permissions": [
+    "activeTab",
+    "https://www.youtube.com/"
+    ],
+    "background": {
+      
+        "scripts": ["listen.js"]
+       }
+    
+  }
